@@ -12,12 +12,14 @@
 #source ~/.cache/wal/colors-tty.sh
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/amarjot/.oh-my-zsh
-
+export ZSH=/home/amarjot/.oh-my-zsh
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$JAVA_HOME/jre/bin:$PATH
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="steeef"
+ZSH_THEME="robbyrussell"
+#"steeef"
 #ZSH_THEME="lambda-gitster"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -102,9 +104,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias update='/home/amarjot/git/linuxSetup/scripts/update.sh'
-alias brightness='/home/amarjot/git/linuxSetup/scripts/brightness.sh'
-alias open='/home/amarjot/git/linuxSetup/scripts/open.sh'
-alias lock='/home/amarjot/git/linuxSetup/scripts/lock.sh'
-alias sleep='/home/amarjot/git/linuxSetup/scripts/sleep.sh'
+alias update='~/git/linuxSetup/scripts/update.sh'
+alias brightness='~/git/linuxSetup/scripts/brightness.sh'
+alias open='~/git/linuxSetup/scripts/open.sh'
+alias lock='~/git/linuxSetup/scripts/lock.sh'
+alias sleep='~/git/linuxSetup/scripts/sleep.sh'
+alias changeWallpaper='~/git/linuxSetup/scripts/changeWallpaper.sh'
 neofetch
