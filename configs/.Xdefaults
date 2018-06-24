@@ -1,0 +1,6 @@
+URxvt*transparent: true
+URxvt*shading: 13:
+URxvt*scrollBar: false
+URxvt*font:     xft:Source Code Pro:medium:size=11
+URxvt*geometry:  130x30
+URxvt*fading:  15
