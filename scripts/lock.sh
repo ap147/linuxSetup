@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Make sure you have i3lock
+# sudo apt-get install i3lock
 scrot /tmp/screen.png
 convert /tmp/screen.png -scale 10% -scale 1000% /tmp/screen.png
 
