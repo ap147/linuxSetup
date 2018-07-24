@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Make sure you have i3lock
+# Make sure you have i3lock & scotch
 # sudo apt-get install i3lock
+# sudo apt install scotch
+
 scrot /tmp/screen.png
 convert /tmp/screen.png -scale 10% -scale 1000% /tmp/screen.png
 
