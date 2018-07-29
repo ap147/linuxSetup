@@ -11,7 +11,7 @@ long=175.1948838
 
 if [ $# -eq 0 ]; then
 	redshift -l $lat:$long -b 1:1
-	exit 0
+else
+	redshift -l $lat:$long -b 1:$1
 fi
 
-redshift -l $lat:$long -b 1:$1
