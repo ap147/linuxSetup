@@ -34,6 +34,8 @@ sudo apt-get install paper-gtk-theme
 # https://extensions.gnome.org/extension/307/dash-to-dock/
 # Alternate Tab
 # https://extensions.gnome.org/extension/15/alternatetab/
+# User Themes
+# https://extensions.gnome.org/extension/19/user-themes/
 
 # ------------- APPS
 
@@ -47,3 +49,8 @@ sudo apt-get update -y
 # 4. Install Spotify
 sudo apt-get install spotify-client
 
+# Shutter (takes screenshot)
+sudo apt install shutter
+
+# Peek (records display as a gif)
+# Kazam (records display as vid)
