@@ -11,3 +11,4 @@ curl -L git.io/antigen > antigen.zsh
 
 # Replace default .zshrc with personal zsrhc.
 cp ../configs/.zshrc ~/.zshrc
+cp ../configs/.zsh_aliases ~/.zsh_aliases

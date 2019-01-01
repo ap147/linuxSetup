@@ -1,13 +1,7 @@
-alias update='~/git/setup/scripts/bash/update.sh'
-alias brightness='~/git/setup/scripts/bash/brightness.sh'
-alias open='~/git/setup/scripts/bash/open.sh'
-alias lock='~/git/setup/scripts/bash/lock.sh'
-alias sleep='~/git/setup/scripts/bash/sleep.sh'
-alias changeWallpaper='~/git/setup/scripts/bash/changeWallpaper.sh'
-alias setWallpaper='~/git/setup/scripts/bash/setWallpaper.sh'
-alias pi='ssh pi@192.168.1.27'
-alias zshrc='vim ~/.zshrc'
 
+. ~/.zsh_aliases
+
+# Antigen (Make sure you have antigen installed). 
 source $HOME/antigen.zsh
 
 antigen use oh-my-zsh
@@ -39,8 +33,7 @@ antigen bundle systemd
 
 antigen update
 
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
+antigen theme avit
 
 antigen apply
-
 
