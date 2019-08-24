@@ -1,3 +1,7 @@
+# Desktop Management
+yabai: https://github.com/koekeishiya/yabai (tiles windows)
+skhd: https://github.com/koekeishiya/skhd (listens for hotkey and communitcates it to yabai)
+
 # Theme
 Dracula : https://draculatheme.com
 
