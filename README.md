@@ -10,12 +10,11 @@ Dracula : https://draculatheme.com
 - oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
 
 # Browsers
-- Vivaldi: https://vivaldi.com/download/
-- Chrome: https://www.google.com/chrome/
+- Firefox
+- Chrome: https://www.google.com/chrome/ (only for things that only work on chrome)
 
 # Launchers
-- Wox: https://github.com/Wox-launcher/Wox (Windows)
-- Alfred: https://www.alfredapp.com (MAC)
+- Alfred: https://www.alfredapp.com
 
 # Remote
 - Synergy: https://symless.com/synergy
