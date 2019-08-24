@@ -5,14 +5,12 @@ alias zshrc='vim ~/.zshrc'
 alias vimrc='vim ~/.vimrc'
 #alias pi='ssh pi@192.168.1.27'
 
-# Mac Only
-
 # Linux Only
-#alias update='~/Developer/setup/scripts/bash/update.sh'
-#alias brightness='~/Developer/setup/scripts/bash/brightness.sh'
-#alias open='~/Developer/setup/scripts/bash/open.sh'
-#alias lock='~/Developer/setup/scripts/bash/lock.sh'
-#alias sleep='~/Developer/setup/scripts/bash/sleep.sh'
-#alias changeWallpaper='~/Developer/setup/scripts/bash/changeWallpaper.sh'
-#alias setWallpaper='~/Developer/setup/scripts/bash/setWallpaper.sh'
+alias update='~/Developer/setup/scripts/bash/update.sh'
+alias brightness='~/Developer/setup/scripts/bash/brightness.sh'
+alias open='~/Developer/setup/scripts/bash/open.sh'
+alias lock='~/Developer/setup/scripts/bash/lock.sh'
+alias sleep='~/Developer/setup/scripts/bash/sleep.sh'
+alias changeWallpaper='~/Developer/setup/scripts/bash/changeWallpaper.sh'
+alias setWallpaper='~/Developer/setup/scripts/bash/setWallpaper.sh'
 
