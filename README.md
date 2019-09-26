@@ -13,6 +13,10 @@ Dracula : https://draculatheme.com
 - Wox: https://github.com/Wox-launcher/Wox (Windows)
 - Alfred: https://www.alfredapp.com (MAC)
 
+# Window Management
+- PlayToys: https://github.com/microsoft/PowerToys (Windows)
+- Yabai: https://github.com/koekeishiya/yabai
+
 # Remote
 - ZeroTier: https://www.zerotier.com/
 - TeamViewer: https://www.teamviewer.com/en/
