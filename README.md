@@ -14,8 +14,7 @@ Dracula : https://draculatheme.com
 - Alfred: https://www.alfredapp.com (MAC)
 
 # Window Management
-- PlayToys: https://github.com/microsoft/PowerToys (Windows)
-- Yabai: https://github.com/koekeishiya/yabai
+- PlayToys: https://github.com/microsoft/PowerToys
 
 # Remote
 - ZeroTier: https://www.zerotier.com/
