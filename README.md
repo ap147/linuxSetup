@@ -9,8 +9,7 @@ Dracula : https://draculatheme.com
 - Firefox: https://www.mozilla.org/en-US/firefox/new/
 - Chrome: https://www.google.com/chrome/ (only for things that only work on chrome)
 
-# Launchers
-- Wox: https://github.com/Wox-launcher/Wox (Windows)
+# Launcher
 - Alfred: https://www.alfredapp.com (MAC)
 
 # Window Management
