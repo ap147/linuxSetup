@@ -142,6 +142,8 @@ if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
 
+let g:rainbow_active = 1
+
 " Vim Plugings (VimPlug)
 
 call plug#begin('~/.vim/plugged')
