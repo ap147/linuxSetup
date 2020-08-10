@@ -132,13 +132,10 @@ nnoremap [r :ALEPreviousWrap<CR>
 
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
-set spellfile=$HOME/.vim-spell-en.utf-8.add
+"set spellfile=$HOME/.vim-spell-en.utf-8.add
 
 " Autocomplete with dictionary words when spell check is on
 set complete+=kspell
-
-" Always use vertical diffs
-set diffopt+=vertical
 
 " Local config
 if filereadable($HOME . "/.vimrc.local")
@@ -149,8 +146,18 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-	Plug 'itchyny/lightline.vim'
-	Plug 'dracula/vim', { 'as': 'dracula' }
+  " Language pack
+  Plug 'sheerun/vim-polyglot'
+
+  Plug 'airblade/vim-gitgutter'
+  Plug 'preservim/nerdtree'
+  Plug 'preservim/nerdcommenter'
+  Plug 'itchyny/lightline.vim'
+
+  " Themes
+  "Plug 'dracula/vim', { 'as': 'dracula' }
+  Plug 'arcticicestudio/nord-vim'
+  Plug 'frazrepo/vim-rainbow'
 
 call plug#end()
 
