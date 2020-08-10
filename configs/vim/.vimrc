@@ -148,7 +148,7 @@ let g:rainbow_active = 1
 
 call plug#begin('~/.vim/plugged')
 
-  " Language pack
+  " Syntax highlighting
   Plug 'sheerun/vim-polyglot'
 
   Plug 'airblade/vim-gitgutter'
@@ -162,5 +162,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'frazrepo/vim-rainbow'
 
 call plug#end()
+
+colorscheme nord
 
 " To install ':PlugInstall'
