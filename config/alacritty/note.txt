@@ -1,0 +1,3 @@
+`%APPDATA%\alacritty\alacritty.yml`
+
+cp /mnt/c/Users/Amarjot/AppData/Roaming/alacritty/alacritty.yml .
